@@ -1,27 +1,24 @@
-
-//Faça uma algoritmo que receba o raio e calcule a área do círculo.
+//Escreva um algoritmo para calcular e mostrar a área de uma circunferência. Para isso, o
+//algoritmo deverá ler o valor do raio (r) a = ? . r 2
 
 programa
 {
-
 	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
-		real raio, area
+		real area, raio
 
-		escreva("Informe o raio da circunferência em cm: ")
+		escreva("\nInforme o raio da circurferência (cm): ")
 		leia(raio)
 
-		// Calcula a área da circunferência utilizando a constante PI da biblioteca
 		area = mat.PI * mat.potencia(raio, 2.0)
 
-		// Arredonda o resultado para 2 casas decimais para facilitar a visualização
 		area = mat.arredondar(area, 2)
 
 		limpa()
+
+		escreva("\nA aréa da circunferência é ", area," cm²")
 		
-		escreva("O valor de PI é: ", mat.PI)
-		escreva("\nA área da circunferência é: ", area, " cm²\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 463; 
+ * @POSICAO-CURSOR = 378; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

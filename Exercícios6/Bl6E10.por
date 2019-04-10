@@ -39,7 +39,7 @@ programa
 	funcao ordenaVetor(inteiro vetor[], inteiro tamanho){
 		inteiro temp
 		para (inteiro x = 0; x < tamanho-1; x++){
-			para(inteiro y = (x+1); y < tamanho; y++){
+			para(inteiro y = (x+1); y < tamanho-1; y++){
 				se(vetor[y] < vetor[x]){
 				temp = vetor[x]
 				vetor[x] = vetor[y]
@@ -76,9 +76,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1056; 
- * @PONTOS-DE-PARADA = 26;
- * @SIMBOLOS-INSPECIONADOS = {vetor, 12, 10, 5}-{vetor, 39, 28, 5}-{tamanho, 39, 45, 7}-{temp, 40, 10, 4};
+ * @POSICAO-CURSOR = 629; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

@@ -1,21 +1,24 @@
-//Receba um número e informe se é maior que 10.
-
+//Crie uma matriz 7X8 onde cada elemento é a soma dos índices de sua posição dentro da matriz.
 programa
 {
 	funcao inicio()
 	{
-		inteiro nro
-		escreva("\nInforme um número: ")
-		leia(nro)
-		se(nro > 10 e nro != 10){
-			escreva("\nNúmero maior que 10")
-			}senao{
-				se(nro != 10){
-				escreva("\nNúmero menor que 10")
-				}senao{
-					escreva("\nNúmero igual a 10")
-					}
-			}   
+		real mat[7][8]
+		inteiro x, y
+
+		para (x = 0; x < 7; x++){
+			para (y = 0; y < 8; y++){
+				mat[x][y] = x + y
+				}
+			}
+		limpa()
+		escreva("\nMatriz:\n")
+		para (x = 0; x < 7; x++){
+			para (y = 0; y < 8; y++){
+				escreva("[",mat[x][y],"]\t")
+				}
+				escreva("\n")
+				}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 331; 
+ * @POSICAO-CURSOR = 371; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

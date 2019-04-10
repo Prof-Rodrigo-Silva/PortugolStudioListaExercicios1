@@ -1,5 +1,5 @@
 
-//FaÁa um algoritmo para transformar uma dist‚ncia expressa em milhas para quilÙmetros. Sabe-se que uma milha corresponde a 0,6214 km
+//Fa√ßa um algoritmo para transformar uma dist√¢ncia expressa em milhas para quil√¥metros. Sabe-se que um km corresponde a 0,6214 milhas
 
 
 programa
@@ -9,20 +9,20 @@ programa
 
 	real dist
 
-	escreva("Informe a dist‚ncia em milhas: ")
+	escreva("Informe a dist√¢ncia em milhas: ")
 	leia(dist)
-	dist = dist * 0.6214
+	dist = dist / 0.6214
 
-	escreva("A dist‚ncia em quilÙmetros È: ",dist," KM")
+	escreva("A dist√¢ncia em quil√¥metros √©: ",dist," KM")
 		
 	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
- * Esta seÁ„o do arquivo guarda informaÁıes do Portugol Studio.
- * VocÍ pode apag·-la se estiver utilizando outro editor.
+ * Esta se√ß√£o do arquivo guarda informa√ß√µes do Portugol Studio.
+ * Voc√™ pode apag√°-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 321; 
+ * @POSICAO-CURSOR = 135; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,6 +1,7 @@
 
-//O valor unitário de um livro na promoção custa R$ 12,00, caso o cliente comprar até dez livros. Caso contrário, o preço unitário do livro custa R$ 8,00. Escreva um algoritmo que leia o número de
-//livros comprados, calcule e mostre o valor total que o cliente deverá pagar.
+//O valor unitÃ¡rio de um livro na promoÃ§Ã£o custa R$ 12,00, caso o cliente comprar atÃ© dez livros. Caso contrÃ¡rio, 
+//o preÃ§o unitÃ¡rio do livro custa R$ 8,00. Escreva um algoritmo que leia o nÃºmero de
+//livros comprados, calcule e mostre o valor total que o cliente deverÃ¡ pagar.
 
 
 programa
@@ -9,7 +10,7 @@ programa
 	{
 		real valor, n_livros
 
-		escreva("informe o número de livros comprados: ")
+		escreva("informe o nÃºmero de livros comprados: ")
 		leia(n_livros)
 
 		se (n_livros > 10){
@@ -18,15 +19,15 @@ programa
 				valor = n_livros * 10
 				}
 		
-		escreva("O Valor total é R$ ",valor)
+		escreva("O Valor total Ã© R$ ",valor)
 	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
+ * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
+ * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 498; 
+ * @POSICAO-CURSOR = 335; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

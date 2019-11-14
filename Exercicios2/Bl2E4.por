@@ -1,6 +1,6 @@
 
-//Escreva um algoritmo que leia um valor para a vari·vel A e um valor para a vari·vel B. Logo apÛs, o algoritmo dever· fazer com que a vari·vel A guarde o valor da vari·vel B e a vari·vel B
-//guarde o valor da vari·vel A. Apresentar os valores das vari·veis A e B antes e depois da troca.
+//Escreva um algoritmo que leia um valor para a vari√°vel A e um valor para a vari√°vel B. Logo ap√≥s, o algoritmo dever√° fazer com que a vari√°vel A guarde o valor da vari√°vel B e a vari√°vel B
+//guarde o valor da vari√°vel A. Apresentar os valores das vari√°veis A e B antes e depois da troca.
 
 
 programa
@@ -9,30 +9,30 @@ programa
 	{
 		real A ,B ,C
 
-		escreva("Informe o 1∫ valor: ")
+		escreva("Informe o 1¬∫ valor: ")
 		leia(A)
-		escreva("Informe o 2∫ valor: ")
+		escreva("Informe o 2¬∫ valor: ")
 		leia(B)
 
-		escreva("\nOs valores antes das trocas s„o A: ",A," e B: ",B)
+		escreva("\nOs valores antes das trocas s√£o A: ",A," e B: ",B)
 
 		C = A
 		A = B
 		B = C
 
-		escreva("\nOs valores depois das trocas s„o A: ",A," e B: ",B)
+		escreva("\nOs valores depois das trocas s√£o A: ",A," e B: ",B)
 		
 		
 	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
- * Esta seÁ„o do arquivo guarda informaÁıes do Portugol Studio.
- * VocÍ pode apag·-la se estiver utilizando outro editor.
+ * Esta se√ß√£o do arquivo guarda informa√ß√µes do Portugol Studio.
+ * Voc√™ pode apag√°-la se estiver utilizando outro editor.
  * 
  * @POSICAO-CURSOR = 405; 
  * @PONTOS-DE-PARADA = 19;
- * @SIMBOLOS-INSPECIONADOS = {A, 10, 7, 1}-{B, 10, 10, 1}-{C, 10, 13, 1};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

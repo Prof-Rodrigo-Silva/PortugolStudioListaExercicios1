@@ -1,32 +1,33 @@
-//Uma loja vende bicicletas com um acrÈscimo de 50% sobre o seu preÁo de custo. Ela paga a cada vendedor dois sal·rios-mÌnimos mensais, mais uma comiss„o de 15 % sobre o preÁo de custo
-//de cada bicicleta vendida, dividida igualmente entre eles. Escreva um algoritmo que leia o n˙mero de empregados da loja, o valor do sal·rio-mÌnimo, o preÁo de custo de cada bicicleta, o n˙mero de
-//bicicletas vendidas, calcule e escreva: O sal·rio final de cada empregado e o lucro (lÌquido) da loja.
+//Uma loja vende bicicletas com um acr√©scimo de 50% sobre o seu pre√ßo de custo. Ela paga a cada vendedor dois sal√°rios-m√≠nimos mensais, mais uma comiss√£o de 15 % sobre o pre√ßo de custo
+//de cada bicicleta vendida, dividida igualmente entre eles. Escreva um algoritmo que leia o n√∫mero de empregados da loja, o valor do sal√°rio-m√≠nimo, o pre√ßo de custo de cada bicicleta, o n√∫mero de
+//bicicletas vendidas, calcule e escreva: O sal√°rio final de cada empregado e o lucro (l√≠quido) da loja.
 
 programa
 {
 	funcao inicio()
 	{
-		real n_emp_loja, salario_min, p_cust_bic, n_bic_vendida, v_total_bic_vendida, salario_final, comissao, lucro_liq
+		real n_emp_loja, salario_min, p_cust_bic, n_bic_vendida, v_total_bic_vendida, salario_final
+		real comissao, lucro_liq
 
-		escreva("informe o n˙mero de empregados da loja: ")
+		escreva("informe o n√∫mero de empregados da loja: ")
 		leia(n_emp_loja)
-		escreva("\nInforme o valor do sal·rio mÌnimo: ")
+		escreva("\nInforme o valor do sal√°rio m√≠nimo: ")
 		leia(salario_min)
 		escreva("\nInforme o valor de custo da cada bicicleta: ")
 		leia( p_cust_bic)
-		escreva("\nInforme o n˙mero de bicicletas vendidas: ")
+		escreva("\nInforme o n√∫mero de bicicletas vendidas: ")
 		leia(n_bic_vendida)
 
-		v_total_bic_vendida = (p_cust_bic + (p_cust_bic *0.5)) * n_bic_vendida
+		v_total_bic_vendida = (p_cust_bic + (p_cust_bic * 0.5)) * n_bic_vendida
 
-		comissao = (p_cust_bic + (p_cust_bic *0.15)) * n_bic_vendida
+		comissao = p_cust_bic * 0.15 * n_bic_vendida
 
 		salario_final = 2 * salario_min + comissao/n_emp_loja
 
 		lucro_liq = v_total_bic_vendida - (salario_final * n_emp_loja)
 
-		escreva("\nO sal·rio final de cada funcion·rio È R$: ",salario_final)
-		escreva("\nO Lucro liquido da loja È: ",lucro_liq)
+		escreva("\nO sal√°rio final de cada funcion√°rio √© R$: ",salario_final)
+		escreva("\nO Lucro liquido da loja √©: ",lucro_liq)
 
 		
 
@@ -35,12 +36,12 @@ programa
 }
 /* $$$ Portugol Studio $$$ 
  * 
- * Esta seÁ„o do arquivo guarda informaÁıes do Portugol Studio.
- * VocÍ pode apag·-la se estiver utilizando outro editor.
+ * Esta se√ß√£o do arquivo guarda informa√ß√µes do Portugol Studio.
+ * Voc√™ pode apag√°-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 488; 
- * @PONTOS-DE-PARADA = 20;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @POSICAO-CURSOR = 998; 
+ * @PONTOS-DE-PARADA = 19;
+ * @SIMBOLOS-INSPECIONADOS = {v_total_bic_vendida, 9, 59, 19}-{salario_final, 9, 80, 13}-{comissao, 10, 7, 8}-{lucro_liq, 10, 17, 9};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

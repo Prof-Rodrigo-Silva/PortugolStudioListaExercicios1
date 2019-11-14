@@ -1,13 +1,13 @@
 
-//Elaborar um algoritmo que lê o público total de um jogo de futebol e fornece a renda do jogo, sabendo-se que havia 4 tipos de ingressos assim distribuídos: popular 10% do público a R$ 5,00,
-//geral 50% do público a R$ 10,00, arquibancada 30% do público a R$ 20,00 e cadeiras 10% do público a R$ 30,00.
+//Elaborar um algoritmo que lÃª o pÃºblico total de um jogo de futebol e fornece a renda do jogo, sabendo-se que havia 4 tipos de ingressos assim distribuÃ­dos: popular 10% do pÃºblico a R$ 5,00,
+//geral 50% do pÃºblico a R$ 10,00, arquibancada 30% do pÃºblico a R$ 20,00 e cadeiras 10% do pÃºblico a R$ 30,00.
 
 programa
 {
 	funcao inicio()
 	{
 		real public, renda, pop, ge, arq, cad
-		escreva("Informe o público do jogo: ")
+		escreva("Informe o pÃºblico do jogo: ")
 		leia(public)
 		pop = public * 0.1
 		ge = public * 0.5
@@ -16,13 +16,13 @@ programa
 
 		renda = (pop * 5) + (ge * 10) + (arq * 20) + (cad * 30)
 
-		escreva("O valor da renda total é R$ ", renda)
+		escreva("O valor da renda total Ã© R$ ", renda)
 	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
+ * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
+ * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
  * 
  * @POSICAO-CURSOR = 376; 
  * @PONTOS-DE-PARADA = 12;

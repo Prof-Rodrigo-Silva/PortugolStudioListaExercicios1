@@ -1,6 +1,5 @@
 programa
 {
-	
 	funcao inicio()
 	{
 		inteiro costa = 0
@@ -17,7 +16,7 @@ programa
 						  {'.','.','.','.','.','.','.','.','.','.'}}
 
 
-	/*Laço apenas para mostrar a matriz
+	/*LaÃ§o apenas para mostrar a matriz
 	 * para (inteiro linha = 0; linha < 11; linha++){
 		para (inteiro coluna = 0; coluna < 10; coluna++){
 			escreva(m[linha][coluna])
@@ -26,23 +25,22 @@ programa
 		}*/
 	para (inteiro linha = 0; linha < 11; linha++){
 		para (inteiro coluna = 0; coluna < 10; coluna++){
-			
 			se(m[linha][coluna]=='#' e (m[linha+1][coluna]=='.' ou m[linha-1][coluna]=='.' ou m[linha][coluna+1]=='.' ou m[linha][coluna-1]=='.')){
 				costa++
-				}	
+				}
 			}
 		}
-	escreva("A valor da costa do país de Nlogônia é ",costa)
+	escreva("A valor da costa do paÃ­s de NlogÃ´nia Ã© ",costa)
 	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
+ * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
+ * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 668; 
+ * @POSICAO-CURSOR = 10; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {costa, 5, 10, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

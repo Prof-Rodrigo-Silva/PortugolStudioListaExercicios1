@@ -25,13 +25,14 @@ programa
 				escreva("H = ",h)
 				}
 	}
+	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 13; 
+ * @POSICAO-CURSOR = 568; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {n, 9, 10, 1}-{h, 9, 13, 1}-{aux, 9, 18, 3}-{aux1, 9, 27, 4}-{p, 10, 7, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
